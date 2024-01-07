@@ -11,5 +11,6 @@ Write-Host "========================================="
 Write-Host "Clearing Prefetch Files"
 Start-Sleep -seconds 3
 Remove-Item -Path "C:\Windows\Prefetch" -recurse
+Write-Host "========================================="
 Write-Host "Cleaning Done Closing"
 Start-Sleep -seconds 3
